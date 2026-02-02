@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="dark scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tech Profile - About Me</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#6366f1", // Indigo 500 - Vibrant Primary
+                        "primary-hover": "#4f46e5", // Indigo 600
+                        "primary-light": "#e0e7ff",
+                        "accent": "#22d3ee", // Cyan 400 - Vibrant Accent
+                        "accent-hover": "#06b6d4",
+                        "background-light": "#f8fafc",
+                        "background-dark": "#020617", // Slate 950 - Sleeker, darker background
+                        "surface-light": "#ffffff",
+                        "surface-dark": "#0f172a", // Slate 900 - Dark surface
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.375rem", "lg": "0.5rem", "xl": "1rem", "2xl": "1.5rem", "full": "9999px" },
+                    boxShadow: {
+                        "glow": "0 0 20px rgba(99, 102, 241, 0.25)",
+                        "card": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+                        "card-hover": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-200 antialiased overflow-x-hidden transition-colors duration-300 selection:bg-accent/30 selection:text-accent-hover">
+    <div class="relative flex min-h-screen w-full flex-col">
+        <div class="fixed top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+            <div
+                class="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] bg-primary/10 rounded-full blur-[100px] opacity-40 animate-pulse">
+            </div>
+            <div class="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-accent/10 rounded-full blur-[100px] opacity-40 animate-pulse"
+                style="animation-delay: 1s;"></div>
+            <div class="absolute top-[20%] left-[20%] w-[300px] h-[300px] bg-indigo-500/5 rounded-full blur-[80px]">
+            </div>
+        </div>
+        <header
+            class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800/60 bg-white/80 dark:bg-[#020617]/80 backdrop-blur-md transition-colors duration-300">
+            <div class="mx-auto max-w-[1280px] px-6 py-4">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3 group cursor-pointer">
+                        <div
+                            class="flex items-center justify-center size-10 bg-gradient-to-br from-primary to-accent rounded-xl text-white shadow-lg shadow-primary/20 transition-transform group-hover:scale-105 group-hover:shadow-primary/30">
+                            <span class="material-symbols-outlined text-[24px]">terminal</span>
+                        </div>
+                        <h2
+                            class="text-slate-900 dark:text-white text-xl font-bold leading-tight tracking-tight group-hover:text-primary transition-colors">
+                            AlexDev<span class="text-accent">.</span></h2>
+                    </div>
+                    <nav class="hidden md:flex items-center gap-8">
+                        <a class="text-sm font-semibold text-primary transition-colors relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-0.5 after:bg-primary after:rounded-full"
+                            href="#">About</a>
+                        <a class="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Projects</a>
+                        <a class="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Blog</a>
+                        <a class="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Contact</a>
+                    </nav>
+                    <button class="md:hidden text-slate-700 dark:text-white hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="relative z-10 flex flex-1 flex-col items-center justify-center py-16 px-4 md:px-10 lg:px-20">
+            <div class="w-full max-w-[1150px] flex flex-col gap-16 lg:flex-row lg:items-start lg:gap-28">
+                <div class="flex-shrink-0 w-full lg:w-[420px] flex flex-col gap-8 sticky lg:top-32">
+                    <div
+                        class="group relative w-full aspect-[3/3.6] rounded-3xl shadow-2xl shadow-primary/5 overflow-hidden bg-white dark:bg-surface-dark p-2 border border-slate-100 dark:border-slate-800 ring-1 dark:ring-white/5">
+                        <div class="w-full h-full rounded-2xl bg-cover bg-center transition-transform duration-700 group-hover:scale-105 filter grayscale-[20%] group-hover:grayscale-0"
+                            data-alt="Professional headshot of a developer in a modern office setting"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBgneQu4nnRajQbIt6O433eZe8t-2GV2M-ed5eTEVnhFVdkN0qCXCYQIyisJXjnCqsic6XtCXht3byswGLcDlA2WaKs7n1fszokm7OqgSbpsk1O-aHUAPcay6Ntc7oFJgEyQZFsrgpo57Kx0otMgL-JVZZyUiuZ6AZxFMr_qfNG-Bz06d671luFKrbwbiNXrQICvgDm1ODVDs93xwYTBD4Kfjqt9sY6KZmRAs5ATF30ccZ_Qav5lxJDtwydeoZqlpJSIqYiqOIv_tM");'>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500 rounded-2xl">
+                        </div>
+                        <div
+                            class="absolute bottom-6 left-6 right-6 p-4 bg-white/90 dark:bg-slate-950/80 backdrop-blur-md rounded-2xl border border-white/20 dark:border-white/10 shadow-lg shadow-black/10">
+                            <div class="flex items-center gap-3">
+                                <div class="relative flex items-center justify-center size-3">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+                                    <span
+                                        class="relative inline-flex rounded-full size-3 bg-accent shadow-[0_0_8px_rgba(34,211,238,0.6)]"></span>
+                                </div>
+                                <p
+                                    class="text-xs font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider">
+                                    Open to opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center gap-4">
+                        <a class="group p-4 rounded-2xl bg-white dark:bg-surface-dark text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden"
+                            href="#">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <span
+                                class="material-symbols-outlined text-[22px] group-hover:text-primary transition-colors relative z-10">mail</span>
+                        </a>
+                        <a class="group p-4 rounded-2xl bg-white dark:bg-surface-dark text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden"
+                            href="#">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <span
+                                class="material-symbols-outlined text-[22px] group-hover:text-primary transition-colors relative z-10">code</span>
+                        </a>
+                        <a class="group p-4 rounded-2xl bg-white dark:bg-surface-dark text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden"
+                            href="#">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <span
+                                class="material-symbols-outlined text-[22px] group-hover:text-primary transition-colors relative z-10">link</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col flex-1 gap-12">
+                    <div class="flex flex-col gap-6">
+                        <div
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 dark:bg-primary/10 border border-indigo-100 dark:border-primary/20 w-fit backdrop-blur-sm">
+                            <span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+                            <span class="text-primary text-xs font-bold uppercase tracking-wider">About Me</span>
+                        </div>
+                        <h1
+                            class="text-slate-900 dark:text-white text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight">
+                            Architecting <span
+                                class="bg-gradient-to-r from-primary via-indigo-400 to-accent bg-clip-text text-transparent">Digital
+                                Future</span>
+                        </h1>
+                        <p
+                            class="text-slate-500 dark:text-slate-400 text-lg md:text-xl font-medium leading-relaxed max-w-2xl">
+                            Hello, I'm Alex — A Full Stack Developer passionate about building accessible, performant,
+                            and visually stunning web applications with a focus on seamless user experience.
+                        </p>
+                    </div>
+                    <div
+                        class="text-slate-600 dark:text-slate-300 text-base font-normal leading-8 space-y-6 border-l-2 border-slate-100 dark:border-slate-800/60 pl-8">
+                        <p>
+                            My journey started with a curiosity for how things work and has evolved into a career
+                            building robust digital solutions. I specialize in the JavaScript ecosystem, crafting clean
+                            code that solves real-world problems while maintaining a sharp eye for design detail.
+                        </p>
+                        <p>
+                            Whether I'm optimizing database queries or tweaking CSS animations, I bring a user-centric
+                            approach to every project. I believe in continuous learning and contributing to the
+                            open-source community to drive innovation forward.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                        <div
+                            class="group flex flex-col gap-2 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 bg-white dark:bg-surface-dark/40 hover:bg-surface-dark/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden backdrop-blur-sm">
+                            <div
+                                class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div class="flex items-center gap-2 mb-2">
+                                <div class="p-1.5 rounded-lg bg-primary/10 text-primary">
+                                    <span class="material-symbols-outlined text-[20px]">schedule</span>
+                                </div>
+                                <p
+                                    class="text-slate-400 dark:text-slate-400 text-xs font-bold uppercase tracking-wider">
+                                    Experience</p>
+                            </div>
+                            <p class="text-slate-900 dark:text-white tracking-tight text-3xl font-bold">05+ <span
+                                    class="text-sm font-medium text-slate-500 dark:text-slate-400">Years</span></p>
+                        </div>
+                        <div
+                            class="group flex flex-col gap-2 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 bg-white dark:bg-surface-dark/40 hover:bg-surface-dark/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden backdrop-blur-sm">
+                            <div
+                                class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div class="flex items-center gap-2 mb-2">
+                                <div class="p-1.5 rounded-lg bg-primary/10 text-primary">
+                                    <span class="material-symbols-outlined text-[20px]">rocket_launch</span>
+                                </div>
+                                <p
+                                    class="text-slate-400 dark:text-slate-400 text-xs font-bold uppercase tracking-wider">
+                                    Projects</p>
+                            </div>
+                            <p class="text-slate-900 dark:text-white tracking-tight text-3xl font-bold">50+ <span
+                                    class="text-sm font-medium text-slate-500 dark:text-slate-400">Delivered</span></p>
+                        </div>
+                        <div
+                            class="group flex flex-col gap-2 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 bg-white dark:bg-surface-dark/40 hover:bg-surface-dark/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden backdrop-blur-sm">
+                            <div
+                                class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div class="flex items-center gap-2 mb-2">
+                                <div class="p-1.5 rounded-lg bg-primary/10 text-primary">
+                                    <span class="material-symbols-outlined text-[20px]">sentiment_satisfied</span>
+                                </div>
+                                <p
+                                    class="text-slate-400 dark:text-slate-400 text-xs font-bold uppercase tracking-wider">
+                                    Satisfaction</p>
+                            </div>
+                            <p class="text-slate-900 dark:text-white tracking-tight text-3xl font-bold">100% <span
+                                    class="text-sm font-medium text-slate-500 dark:text-slate-400">Happy Clients</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-8 pt-8 border-t border-slate-200 dark:border-slate-800/60">
+                        <div class="flex flex-col gap-4">
+                            <h3 class="text-xs font-bold uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500">
+                                Core Technologies</h3>
+                            <div class="flex flex-wrap gap-3">
+                                <span
+                                    class="group inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-medium bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/40 hover:text-white hover:bg-primary transition-all cursor-default shadow-sm hover:shadow-primary/25">
+                                    TypeScript
+                                </span>
+                                <span
+                                    class="group inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-medium bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/40 hover:text-white hover:bg-primary transition-all cursor-default shadow-sm hover:shadow-primary/25">
+                                    React.js
+                                </span>
+                                <span
+                                    class="group inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-medium bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/40 hover:text-white hover:bg-primary transition-all cursor-default shadow-sm hover:shadow-primary/25">
+                                    Next.js
+                                </span>
+                                <span
+                                    class="group inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-medium bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/40 hover:text-white hover:bg-primary transition-all cursor-default shadow-sm hover:shadow-primary/25">
+                                    Node.js
+                                </span>
+                                <span
+                                    class="group inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-medium bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/40 hover:text-white hover:bg-primary transition-all cursor-default shadow-sm hover:shadow-primary/25">
+                                    Tailwind
+                                </span>
+                                <span
+                                    class="group inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-medium bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-primary/40 hover:text-white hover:bg-primary transition-all cursor-default shadow-sm hover:shadow-primary/25">
+                                    GraphQL
+                                </span>
+                            </div>
+                        </div>
+                        <div class="pt-4 flex flex-col sm:flex-row gap-5">
+                            <button
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-gradient-to-r from-primary to-primary-hover px-8 py-4 text-sm font-bold tracking-wide text-white shadow-lg shadow-primary/25 transition-all hover:shadow-primary/40 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">
+                                <span class="material-symbols-outlined text-[20px]">download</span>
+                                Download Resume
+                            </button>
+                            <button
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-surface-dark px-8 py-4 text-sm font-bold tracking-wide text-slate-700 dark:text-slate-200 shadow-sm transition-all hover:bg-slate-50 dark:hover:bg-slate-800 hover:text-primary dark:hover:text-primary hover:border-primary/30 hover:-translate-y-0.5">
+                                Contact Me
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
