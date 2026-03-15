@@ -22,7 +22,7 @@ const Proyek = () => {
                 <p className='text-base/loose text-center mt-2 opacity-50' data-aos="fade-up">Berikut ini beberapa project yang telah saya buat</p>
                 <div className="proyek-box justify-center grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-10 pt-4">
                     {listProyek.map(proyek => (
-                        <div key={proyek.id} className='bg-slate-900 h-[400px] justify-center rounded-3xl transition hover:-translate-y-1' data-aos="fade-up">
+                        <div key={proyek.id} className='bg-slate-900 h-auto pb-3 justify-center rounded-3xl transition hover:-translate-y-1' data-aos="fade-up">
                             <img src={proyek.gambar} alt="" className='w-full h-50 rounded-tr-3xl rounded-tl-3xl' loading='lazy' />
                             <div className="konten px-5 mt-5 group">
                                 <div className='flex justify-between gap-4'>

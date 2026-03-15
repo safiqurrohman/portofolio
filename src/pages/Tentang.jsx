@@ -26,14 +26,16 @@ const Tentang = () => {
                     </div>
                     <div className="space-y-10 mt-8" >
                         <p className="text-lg text-slate-500 max-w-xl" data-aos="fade-left">
-                            Halo, saya <strong>Safiqur Rohman</strong> seorang Full Stack Developer yang berfokus pada pengembangan aplikasi web yang inklusif, berperforma tinggi, dan memiliki estetika visual yang kuat.
+                            Halo, saya <strong>Safiqur Rohman</strong>, Full Stack Developer yang fokus membangun aplikasi web yang cepat, fungsional, dan modern.
                         </p>
+
                         <div className="border-l-2 border-slate-200 dark:border-slate-800 pl-6 space-y-4 text-slate-600 dark:text-slate-300">
                             <p data-aos="fade-left">
-                                Sebagai lulusan baru di bidang pengembangan web, saya memiliki ketertarikan besar dalam membangun aplikasi dari sisi tampilan hingga logika belakang layar. Saya fokus pada penulisan kode yang rapi dan berusaha memastikan setiap proyek yang saya kerjakan dapat memberikan solusi yang fungsional bagi penggunanya.
+                                saya memiliki minat besar dalam membangun aplikasi dari sisi tampilan dan juga backend. Saya berusaha menulis kode yang rapi, terstruktur, dan memastikan setiap proyek dapat memberikan solusi yang bermanfaat bagi pengguna.
                             </p>
+
                             <p data-aos="fade-left">
-                                Saya adalah seorang pembelajar cepat yang senang mengeksplorasi teknologi baru. Saat ini, saya berfokus untuk terus mengasah kemampuan saya dalam mengikuti standar industri agar dapat berkontribusi secara efektif dalam tim maupun proyek profesional.
+                                Saya juga senang mempelajari teknologi baru dan terus mengembangkan kemampuan saya. Saat ini saya berfokus meningkatkan keterampilan agar dapat mengikuti standar industri serta berkontribusi secara efektif dalam tim maupun proyek profesional.
                             </p>
                         </div>
 
@@ -44,7 +46,7 @@ const Tentang = () => {
                             </div>
                             <div className="p-4 rounded-3xl border border-slate-100 dark:border-slate-800" data-aos="fade-left">
                                 <p className="text-xs text-slate-400">Projects</p>
-                                <p className="text-xl font-bold text-white">4+</p>
+                                <p className="text-xl font-bold text-white">5+</p>
                             </div >
                             <div className="p-4 rounded-3xl border border-slate-100 dark:border-slate-800" data-aos="fade-left">
                                 <p className="text-xs text-slate-400">Satisfaction</p>
@@ -53,7 +55,7 @@ const Tentang = () => {
                         </div>
 
                         <div className="gap-4 mt-10 md:mt-14">
-                            <p className='text-white text-2xl font-bold'>Tools</p>
+                            <p className='text-white text-2xl font-bold' data-aos="fade-left">Tools</p>
                             <div className="tools mt-2 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-2 gap-4">
                                 {listTools.map((item) => (
                                     <div key={item.id} className='flex cursor-pointer items-center gap-2 p-3 border border-zinc-500 rounded-md hover:bg-zinc-800 group transition hover:-translate-y-2' data-aos="fade-up">

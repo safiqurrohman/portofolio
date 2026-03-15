@@ -16,6 +16,9 @@ import Tools5 from "/assets/tools/js.png";
 import Tools6 from "/assets/tools/github.png";
 import Tools7 from "/assets/tools/canva.png";
 import Tools8 from "/assets/tools/figma.png";
+import Tools9 from "/assets/tools/laravel.png";
+import Tools10 from "/assets/tools/python.png";
+import Tools11 from "/assets/tools/C.png";
 
 export const listTools = [
   {
@@ -77,6 +80,27 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
+  {
+    id : 9,
+    gambar: Tools9,
+    nama: "Laravel",
+    ket: "Framework",
+    dad: "1200",
+  },
+  {
+    id: 10,
+    gambar: Tools10,
+    nama: "Python",
+    ket: "Language",
+    dad: "1300",
+  },
+  {
+    id: 11,
+    gambar: Tools11,
+    nama: "C++",
+    ket: "Language",
+    dad: "1400",
+  }
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.png";
@@ -91,7 +115,7 @@ export const listProyek = [
     id: 1,
     gambar: Proyek1,
     nama: "Website Manajemen Pekerjaan",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "Aplikasi web untuk mengelola dan memonitor tugas pekerjaan di PT Temprina. Sistem ini memungkinkan pengguna membuat, memperbarui, dan melacak status pekerjaan secara terstruktur sehingga proses manajemen tugas menjadi lebih efisien.",
     tools: ["HTML", "CSS", "Javascript", "CI4", "MYSQL"],
     link: "https://github.com/safiqurrohman/pkl_PTtemprina",
     dad: "200",
@@ -100,7 +124,7 @@ export const listProyek = [
     id: 2,
     gambar: Proyek2,
     nama: "Human Machine Interface",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "Sistem antarmuka berbasis web yang berfungsi sebagai penghubung antara pengguna dan perangkat mesin. Aplikasi ini menampilkan data operasional mesin secara visual sehingga memudahkan monitoring dan kontrol proses secara real-time.",
     tools: ["HTML", "Bootstrap", "Javascript", "Laravel 12", "MYSQL"],
     link: "https://github.com/safiqurrohman/pkl_hmi",
     dad: "300",
@@ -109,7 +133,7 @@ export const listProyek = [
     id: 3,
     gambar: Proyek3,
     nama: "Web Beauty & CO",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desk: "Website manajemen salon yang digunakan untuk mencatat komisi karyawan dan  data pelanggan, layanan treatment, serta transaksi yang dilakukan. Sistem ini juga membantu dalam pencatatan laporan layanan dan mempermudah pengelolaan operasional salon.",
     tools: ["Laravel 12", "PHP", "TailwindCSS", "MYSQL", "JavaScript"],
     link: "https://github.com/safiqurrohman/beautystudio",
     dad: "400",
@@ -118,7 +142,7 @@ export const listProyek = [
     id: 4,
     gambar: Proyek4,
     nama: "ML Deteksi Penyakit Daun",
-    desk: "Membuat model machine learning untuk mendeteksi penyakit daun kacang tanah. proyek ini menggabungkan kombinasi arsitektur Efficientnet dan xgboost sebagai model klasifikasi",
+    desk: "Aplikasi machine learning untuk mengklasifikasikan penyakit pada daun kacang tanah menggunakan citra daun. Model dibangun dengan kombinasi EfficientNet sebagai ekstraksi fitur dan XGBoost sebagai algoritma klasifikasi untuk meningkatkan akurasi deteksi.",
     tools: ["Python", "Streamlit", "CSS", "HTML"],
     link: "https://deteksi-kacang-tanah.streamlit.app/",
     dad: "700",
@@ -126,10 +150,10 @@ export const listProyek = [
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Portfolio Website",
-    desk: "Membuat model machine learning untuk mendeteksi penyakit daun kacang tanah. proyek ini menggabungkan kombinasi arsitektur Efficientnet dan xgboost sebagai model klasifikasi",
+    nama: "Website Portfolio",
+    desk: "Sebuah website portofolio pribadi yang menampilkan informasi tentang diri saya, proyek-proyek yang telah saya kerjakan, serta keterampilan dan pengalaman saya sebagai seorang web developer. Website ini dirancang dengan tampilan yang modern dan responsif menggunakan React.js dan TailwindCSS.",
     tools: ["React", "TailwindCSS", "Vite", "HTML"],
-    link: "https://deteksi-kacang-tanah.streamlit.app/",
+    link: "https://safi-portofolio.netlify.app/",
     dad: "700",
   },
 ];
