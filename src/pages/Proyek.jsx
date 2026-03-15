@@ -22,19 +22,21 @@ const Proyek = () => {
                 <p className='text-base/loose text-center mt-2 opacity-50' data-aos="fade-up">Berikut ini beberapa project yang telah saya buat</p>
                 <div className="proyek-box justify-center grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-10 pt-4">
                     {listProyek.map(proyek => (
-                        <div key={proyek.id} className='bg-slate-900 h-auto pb-3 justify-center rounded-3xl transition hover:-translate-y-1' data-aos="fade-up">
-                            <img src={proyek.gambar} alt="" className='w-full h-50 rounded-tr-3xl rounded-tl-3xl' loading='lazy' />
+                        <div key={proyek.id} className='bg-slate-900 h-auto pb-3 justify-center rounded-3xl transition hover:-translate-y-1' >
+                            <img src={proyek.gambar} alt="project" className='w-full h-50 rounded-tr-3xl rounded-tl-3xl' loading='lazy' />
                             <div className="konten px-5 mt-5 group">
                                 <div className='flex justify-between gap-4'>
-                                    <p className='text-md font-bold'>{proyek.nama}</p>
-                                    <a href={proyek.link}>
+                                    <p className='text-md font-bold' data-aos="fade-up">{proyek.nama}</p>
+                                    <a href={proyek.link} data-aos="fade-up">
                                         <i className="ri-arrow-right-up-line ri-md text-white p-2 rounded-full bg-zinc-600 hover:bg-zinc-700"></i>
                                     </a>
                                 </div>
-                                <p className='text-xs my-5 text-zinc-400'>{proyek.desk}</p>
+                                <p className='text-xs my-5 text-zinc-400' data-aos="fade-up">
+                                    {proyek.desk}
+                                </p>
                                 <div className='flex gap-2 mt-4 flex-wrap'>
                                     {proyek.tools.map((tools, index) => (
-                                        <span key={index} className={`py-1 px-2 rounded-full text-xs font-medium transition hover:-translate-y-0.5 ${toolColors[index % toolColors.length]}`}>
+                                        <span key={index} className={`py-1 px-2 rounded-full text-xs font-medium transition hover:-translate-y-0.5 ${toolColors[index % toolColors.length]}`} data-aos="fade-up">
                                             {tools}
                                         </span>
                                     ))}
