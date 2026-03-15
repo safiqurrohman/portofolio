@@ -14,11 +14,10 @@ import Tools3 from "/assets/tools/tailwind.png";
 import Tools4 from "/assets/tools/bootstrap.png";
 import Tools5 from "/assets/tools/js.png";
 import Tools6 from "/assets/tools/github.png";
-import Tools7 from "/assets/tools/canva.png";
-import Tools8 from "/assets/tools/figma.png";
-import Tools9 from "/assets/tools/laravel.png";
-import Tools10 from "/assets/tools/python.png";
-import Tools11 from "/assets/tools/C.png";
+import Tools7 from "/assets/tools/figma.png";
+import Tools8 from "/assets/tools/laravel.png";
+import Tools9 from "/assets/tools/python.png";
+import Tools10 from "/assets/tools/C.png";
 
 export const listTools = [
   {
@@ -65,38 +64,30 @@ export const listTools = [
     ket: "Repository",
     dad: "800",
   },
-
   {
     id: 7,
     gambar: Tools7,
-    nama: "Canva",
-    ket: "Design App",
-    dad: "1000",
-  },
-  {
-    id: 8,
-    gambar: Tools8,
     nama: "Figma",
     ket: "Design App",
     dad: "1100",
   },
   {
-    id : 9,
-    gambar: Tools9,
+    id : 8,
+    gambar: Tools8,
     nama: "Laravel",
     ket: "Framework",
     dad: "1200",
   },
   {
-    id: 10,
-    gambar: Tools10,
+    id: 9,
+    gambar: Tools9,
     nama: "Python",
     ket: "Language",
     dad: "1300",
   },
   {
-    id: 11,
-    gambar: Tools11,
+    id: 10,
+    gambar: Tools10,
     nama: "C++",
     ket: "Language",
     dad: "1400",
