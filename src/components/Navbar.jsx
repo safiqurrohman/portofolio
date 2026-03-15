@@ -53,20 +53,17 @@ const Navbar = () => {
 
             <div className="menu flex items-center text-white sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 
                 bg-white/10 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none hidden md:flex">
-                {/* <div className={`menu flex items-center text-white sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 
-                bg-white/10 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none  ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}> */}
-
                 <li className='list-none rounded-full px-2 py-1 hover:shadow-[0_0_25px_rgba(124,58,237,0.5)] hover:-translate-y-0.5'>
-                    <a href="#" className='sm:text-lg text-base font-medium'>Home</a>
+                    <a href="#home" className='sm:text-lg text-base font-medium'>Home</a>
                 </li>
                 <li className='list-none rounded-full px-2 py-1 hover:shadow-[0_0_25px_rgba(124,58,237,0.5)] hover:-translate-y-0.5'>
-                    <a href="#" className='sm:text-lg text-base font-medium'>About</a>
+                    <a href="#tentang" className='sm:text-lg text-base font-medium'>About</a>
                 </li>
                 <li className='list-none rounded-full px-2 py-1 hover:shadow-[0_0_25px_rgba(124,58,237,0.5)] hover:-translate-y-0.5'>
-                    <a href="#" className='sm:text-lg text-base font-medium'>Proyek</a>
+                    <a href="#proyek" className='sm:text-lg text-base font-medium'>Proyek</a>
                 </li>
                 <li className='list-none rounded-full px-2 py-1 hover:shadow-[0_0_25px_rgba(124,58,237,0.5)] hover:-translate-y-0.5'>
-                    <a href="#" className='sm:text-lg text-base font-medium'>Contact</a>
+                    <a href="#kontak" className='sm:text-lg text-base font-medium'>Contact</a>
                 </li>
             </div>
 
@@ -77,17 +74,17 @@ const Navbar = () => {
                     md:hidden fixed top-10 left-1/2 -translate-x-1/2
                     w-[95%]
                     bg-white/10 backdrop-blur-md
-                    rounded-2xl p-4
+                    rounded-2xl p-4 z-50
                     flex flex-col gap-4 text-white
                     transition-all duration-300 ease-out
                     ${menuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5 pointer-events-none'}
                     ${active ? 'hidden' : 'block'}
                 `}
             >
-                <a href="#" onClick={() => setMenuOpen(false)}>Home</a>
-                <a href="#" onClick={() => setMenuOpen(false)}>About</a>
-                <a href="#" onClick={() => setMenuOpen(false)}>Proyek</a>
-                <a href="#" onClick={() => setMenuOpen(false)}>Contact</a>
+                <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+                <a href="#tentang" onClick={() => setMenuOpen(false)}>About</a>
+                <a href="#proyek" onClick={() => setMenuOpen(false)}>Proyek</a>
+                <a href="#kontak" onClick={() => setMenuOpen(false)}>Contact</a>
             </div>
 
         </div >

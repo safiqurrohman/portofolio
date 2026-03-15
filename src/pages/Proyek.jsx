@@ -17,17 +17,17 @@ const Proyek = () => {
 
     return (
         <>
-            <section id='proyek' className='proyek text-white pt-15 px-10'>
-                <h2 className='text-center text-3xl md:text-4xl font-bold bg-gradient-to-r from-indigo-500 to-cyan-400 bg-clip-text text-transparent'>Project</h2>
-                <p className='text-base/loose text-center mt-2 opacity-50'>Berikut ini beberapa project yang telah saya buat</p>
+            <section id='proyek' className='proyek text-white pt-15 px-10' >
+                <h2 className='text-center text-3xl md:text-4xl font-bold bg-gradient-to-r from-indigo-500 to-cyan-400 bg-clip-text text-transparent' data-aos="fade-up">Project</h2>
+                <p className='text-base/loose text-center mt-2 opacity-50' data-aos="fade-up">Berikut ini beberapa project yang telah saya buat</p>
                 <div className="proyek-box justify-center grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-10 pt-4">
                     {listProyek.map(proyek => (
-                        <div key={proyek.id} className='bg-slate-900 h-[400px] justify-center rounded-3xl transition hover:-translate-y-1'>
+                        <div key={proyek.id} className='bg-slate-900 h-[400px] justify-center rounded-3xl transition hover:-translate-y-1' data-aos="fade-up">
                             <img src={proyek.gambar} alt="" className='w-full h-50 rounded-tr-3xl rounded-tl-3xl' loading='lazy' />
                             <div className="konten px-5 mt-5 group">
                                 <div className='flex justify-between gap-4'>
                                     <p className='text-md font-bold'>{proyek.nama}</p>
-                                    <a href="">
+                                    <a href={proyek.link}>
                                         <i className="ri-arrow-right-up-line ri-md text-white p-2 rounded-full bg-zinc-600 hover:bg-zinc-700"></i>
                                     </a>
                                 </div>

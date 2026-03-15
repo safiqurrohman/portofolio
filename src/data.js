@@ -1,7 +1,9 @@
 import HeroImage from "/assets/hero-img.webp";
+import HeroAbout from "/assets/hero-about.png";
 
 const Image = {
   HeroImage,
+  HeroAbout
 };
 
 export default Image;
@@ -77,60 +79,57 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
+import Proyek1 from "/assets/proyek/proyek1.png";
+import Proyek2 from "/assets/proyek/proyek2.png";
+import Proyek3 from "/assets/proyek/proyek3.png";
+import Proyek4 from "/assets/proyek/proyek4.png";
 import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
+    nama: "Website Manajemen Pekerjaan",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    tools: ["HTML", "CSS", "Javascript", "CI4", "MYSQL"],
+    link: "https://github.com/safiqurrohman/pkl_PTtemprina",
     dad: "200",
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
+    nama: "Human Machine Interface",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    tools: ["HTML", "Bootstrap", "Javascript", "Laravel 12", "MYSQL"],
+    link: "https://github.com/safiqurrohman/pkl_hmi",
     dad: "300",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
+    nama: "Web Beauty & CO",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    tools: ["Laravel 12", "PHP", "TailwindCSS", "MYSQL", "JavaScript"],
+    link: "https://github.com/safiqurrohman/beautystudio",
     dad: "400",
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-    dad: "500",
+    nama: "ML Deteksi Penyakit Daun",
+    desk: "Membuat model machine learning untuk mendeteksi penyakit daun kacang tanah. proyek ini menggabungkan kombinasi arsitektur Efficientnet dan xgboost sebagai model klasifikasi",
+    tools: ["Python", "Streamlit", "CSS", "HTML"],
+    link: "https://deteksi-kacang-tanah.streamlit.app/",
+    dad: "700",
   },
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
+    nama: "Portfolio Website",
+    desk: "Membuat model machine learning untuk mendeteksi penyakit daun kacang tanah. proyek ini menggabungkan kombinasi arsitektur Efficientnet dan xgboost sebagai model klasifikasi",
+    tools: ["React", "TailwindCSS", "Vite", "HTML"],
+    link: "https://deteksi-kacang-tanah.streamlit.app/",
     dad: "700",
   },
 ];
